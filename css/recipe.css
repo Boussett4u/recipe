@@ -1,0 +1,105 @@
+.monster {
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    margin-left: 50px;
+}
+
+h1{
+  color: red;
+  text-align: center;
+  border: 5px double black;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: radial-gradient(white, green);
+}
+
+#monster {
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#text{
+  margin-top: 65px;
+}
+
+
+#actionbox {
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 500px;
+    overflow: auto;
+    color: red;
+    font-size: 20px;
+}
+
+#actionbox > p {
+    margin: 0 ;
+}
+
+ul#status {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+ul#status li {
+    margin-left : 20px;
+}
+
+button {
+    width: 75px;
+    height: 40px;
+    background-image: url(téléchargement2.jpg);
+    background-size: cover;
+    border: 0;
+    margin-right: 8px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    font-size: 14px
+}
+
+button:hover {
+    background-image: radial-gradient(burlywood, black);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-shadow: 1px 1px 2px purple;
+    border: 5px solid black;
+    color: white;
+}
+body{
+  background-image: url(téléchargement.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+hr{
+  border: 3px inset rosybrown;
+}
+footer {
+  margin-top: 16%;
+  text-align: center;
+  font-size: 10px;
+  font-family: Franklin Gothic;
+  font-weight: bold;
+  color: black;
+  border: 3px solid SlateGray;
+  border-radius: 12px;
+  background-image: url(téléchargement2.jpg);
+  box-shadow: 1px 1px 12px #555;
+  margin-left: 43%;
+  margin-right: 43%;
+}
